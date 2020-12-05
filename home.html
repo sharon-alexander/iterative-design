@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta charset="utf-8">
 </head>
@@ -19,11 +20,18 @@
       <a class="navbar-brand">
         <h1>&hearts; </h1>
       </a>
-      <div class="collapse navbar-collapse">
+
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        style="border: none;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="navbar-item"> my stuff </li>
-          <li class="navbar-item"> just me </li>
-          <li class="navbar-item"> resume </li>
+          <li class="navbar-item"> <a href="../home.html">projects </a></li>
+          <li class="navbar-item"> <a href="../about.html">about me </a></li>
+          <li class="navbar-item"> <a href="../fake-resume.pdf" target="_blank">resume </a></li>
         </ul>
       </div>
     </div>
@@ -38,7 +46,13 @@
   <div class="project-menu">
     <nav class="navbar navbar-expand-sm navbar-light text-info">
       <div class="container-fluid">
-        <div class="collapse navbar-collapse">
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#projectMenuContent"
+          aria-controls="projectMenuContent" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="projectMenuContent">
           <ul class="navbar-nav ml-auto">
             <li class="navbar-item"> <a class="nav-link text-info" href="#context">context </a></li>
             <li class="navbar-item"> <a class="nav-link text-info" href="#sketching-wireframing">sketching + wireframing
@@ -346,6 +360,31 @@
         here</a>
     </p>
   </div>
+
+  <div class="subtitle">conclusion</div>
+
+  <footer class="myfooter">
+    <div class="copyright"> coded with &hearts; | anonymous</div>
+    <div class="social">
+      <a href=""><i class="fa fa-facebook"></i></a>
+      &nbsp;<a href=""><i class="fa fa-instagram"></i></a>
+      &nbsp;<a href=""><i class="fa fa-linkedin"></i></a></div>
+  </footer>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <!-- Bootstrap tooltips --> 
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script> 
+  <!-- Bootstrap core JavaScript --> 
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+  <!-- MDB core JavaScript --> 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  <script src="portfolio.js"></script>
 
 
 </body>
